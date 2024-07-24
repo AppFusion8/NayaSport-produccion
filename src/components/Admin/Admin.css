@@ -1,0 +1,28 @@
+.admin-nav{
+    width: 256px;
+    height: 100vh;
+}
+
+.admin-menu{
+    background-color: rgba(182, 182, 182, 0.479);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+}
+
+.input-id{
+    background: transparent;
+    width: 5%;
+}
+
+.list-container{
+    width: 100%;
+    overflow: auto;
+}
+
+.list-item{
+    display: flex;
+}
+
+.img-form{
+    width: 50%;
+}

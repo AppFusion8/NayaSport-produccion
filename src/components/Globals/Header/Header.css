@@ -1,0 +1,33 @@
+.container-navbar{
+    background-color: #00ffff;
+}
+
+.navbar{
+    background-color: #4e9fb1;
+    min-width: 100%;
+}
+
+.navbar-logo{
+    width: 35%;
+}
+
+.navbar-item{
+    display: flex;
+    justify-content: right;
+    min-width: 80%;
+}
+
+.navbar-link{
+    text-decoration: none;
+    margin: 0 1% 0 1%;
+}
+
+#navbar-responsive{   
+    width: 100vw;
+    color: black;
+}
+
+.link-logo{
+    display: flex;
+    justify-content: center;
+}

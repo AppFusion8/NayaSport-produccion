@@ -1,0 +1,53 @@
+/*
+  FONTS: 
+  Faster One -> font-family: 'Faster One', cursive;
+  Squada One -> font-family: 'Squada One', cursive;
+  Source Code Pro -> font-family: 'Source Code Pro', monospace;
+*/
+
+:root {
+  --primary-color-title: #DF0539;
+  --secondary-color-text: #329FAE;
+  --text-color:#ffffff ;
+  --text-color-price: #000000ce;
+  --monserrat-font: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  background-image: url(../src/assets/img/FONDO-HOME.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container-background{
+  background-image: url(../src/assets/img/BackgroundWhite.webp);
+  background-repeat: repeat-y;
+  min-height: 100vh;
+}
+
+.background-custom{
+  background-image: url(../src/assets/img/Background-custom.svg);
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+
