@@ -108,6 +108,7 @@ function Header() {
               sx={{
                 mr: 2,
                 display: { xs: "flex", md: "none" },
+                padding: "10px 0",
               }}
             />
           </Link>

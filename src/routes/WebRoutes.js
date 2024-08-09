@@ -5,6 +5,7 @@ import Home from "../pages/Home";
 import PrivacyPolicies from "../pages/PrivacyPolicies";
 import Uniforms from "../pages/Uniforms";
 import { pathRoutes } from "./PathRoutes";
+import AboutUs from "../pages/AboutUs";
 
 function WebRoutes() {
   return (
@@ -15,6 +16,7 @@ function WebRoutes() {
         <Route path={pathRoutes.customers} Component={Customers}></Route>
         <Route path={pathRoutes.contact} Component={Contact}></Route>
         <Route path={pathRoutes.privacy} Component={PrivacyPolicies}></Route>
+        <Route path={pathRoutes.aboutUs} Component={AboutUs}></Route>
       </Routes>
     </BrowserRouter>
   );

@@ -8,7 +8,7 @@
 }
 
 .navbar-logo{
-    width: 35%;
+    width: 25%;
 }
 
 .navbar-item{
@@ -30,4 +30,15 @@
 .link-logo{
     display: flex;
     justify-content: center;
+}
+
+@media screen and (width >=768px) {
+    .navbar-logo{
+        width: 25%;
+    }
+}
+@media screen and (width >=1024px) {
+    .navbar-logo{
+        width: 35%;
+    }
 }

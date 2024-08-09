@@ -4,6 +4,7 @@ import Footer from '../components/Globals/Footer/Footer'
 import Header from '../components/Globals/Header/Header'
 import Title from '../components/Globals/Title/Title'
 import WhatsApp from '../components/Globals/WhatsApp/WhatsApp'
+import Messenger from '../components/Globals/Messenger/Messenger'
 
 
 function Customers() {
@@ -14,6 +15,7 @@ function Customers() {
       <AccordionFAQS />
       <Footer /> 
       <WhatsApp />
+      <Messenger />
     </div>
   )
 }

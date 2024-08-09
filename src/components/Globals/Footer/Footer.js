@@ -2,6 +2,7 @@ import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../../../assets/LogoNaya.png';
+import Flag from '../../../assets/img/colombiaFlag.jpg';
 import { pathRoutes } from '../../../routes/PathRoutes';
 import './Footer.css';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -42,12 +43,14 @@ function Footer() {
             <section className='footer-bottom'>
                 <article className='footer-bottom-naya'>
                     <p>
+                        <img src={Flag} alt='logo' />
                         <span className='footer-bottom-name'>NayaSport 2024 | </span>
                         <Link className='footer-bottom-link' to={pathRoutes.privacy}> Términos y condiciones</Link>
+                        {/* <img src={Flag} alt='logo' /> */}
                     </p>
                 </article>
                 <article className='footer-bottom-social'>
-                    <p> Siguenos : </p>
+                    <p> Síguenos : </p>
                     <a href='https://www.facebook.com/nayasport2017/?locale=es_LA'><FacebookOutlinedIcon className='social-icons' /></a>
                     <a href='https://www.instagram.com/nayasportuniformes/?hl=es'><InstagramIcon className='social-icons' /></a>
 

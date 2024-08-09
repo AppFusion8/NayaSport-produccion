@@ -11,14 +11,16 @@ export const pathRoutes = {
   admin: "/admin",
   adminAdd:"/add",
   adminDelete:"/delete",
-  adminUpdate:"/update"
+  adminUpdate:"/update",
+  aboutUs:"/aboutUs"
 };
 
 export const pages = [
     ["Inicio", pathRoutes.home], 
     ["Uniformes", pathRoutes.uniforms],
     ["Preguntas frecuentes", pathRoutes.customers],
-    ["Contáctanos", pathRoutes.contact]
+    ["Contáctanos", pathRoutes.contact],
+    ["Nosotros", pathRoutes.aboutUs]
 ];
 
 export const apiWhatsApp = {
